@@ -12,4 +12,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    allowedHosts: ['5173-igyg4vsp9rd170dol17w7-7ae74ab1.sg1.manus.computer'],
+  },
 });
